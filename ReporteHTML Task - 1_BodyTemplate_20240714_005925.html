@@ -14,7 +14,7 @@
         <div class="title">
             <h1>Reporte de Materia Prima</h1>
             <p>Fecha de creación: &lt;&lt;[MarcaTime]&lt;&lt;</p>
-            <p>Desde: &lt;&lt;[desde]&lt;&lt; Hasta: &lt;&lt;[hasta]&lt;&lt;</p>
+            <p>Desde: &lt;&lt;[desde]&gt;&gt; Hasta: &lt;&lt;[hasta]&gt;&gt;</p>
         </div>
     </header>
     <main>
@@ -31,16 +31,16 @@
             </thead>
             <tbody>
                 <!-- Fila de ejemplo que se repetirá dinámicamente -->
-                &lt;&lt;Start:filter(existencia_pedido,[idpedidos]=[pedidos])&lt;&lt;
+                &lt;&lt;Start:filter(existencia_pedido,[idpedidos]=[pedidos])&gt;&gt;
                 <tr>
-                    <td>&lt;&lt;[idcliente]&lt;&lt;</td>
-                    <td>&lt;&lt;[idpedido]&lt;&lt;</td>
-                    <td>&lt;&lt;[idproducto].[nombre]&lt;&lt;</td>
-                    <td>&lt;&lt;[cantidad]&lt;&lt;</td>
-                    <td>&lt;&lt;[existencia]&lt;&lt;</td>
-                    <td class="diferencia">&lt;&lt;[diferencia]&lt;&lt;</td>
+                    <td>&lt;&lt;[idcliente]&gt;&gt;</td>
+                    <td>&lt;&lt;[idpedido]&gt;&gt;</td>
+                    <td>&lt;&lt;[idproducto].[nombre]&gt;&gt;</td>
+                    <td>&lt;&lt;[cantidad]&gt;&gt;</td>
+                    <td>&lt;&lt;[existencia]&gt;&gt;</td>
+                    <td class="diferencia">&gt;&gt;[diferencia]&gt;&gt;</td>
                 </tr>
-                &lt;&lt;End&lt;&lt;
+                &lt;&lt;End&gt;&gt;
                 <!-- Añadir más filas según sea necesario -->
             </tbody>
         </table>
